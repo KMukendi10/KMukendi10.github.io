@@ -1,39 +1,51 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background: white;
-    border-radius: 8px;
-}
-
-h2 {
+    background: #f4f4f4;
     color: #333;
 }
 
+/* HERO */
+.hero {
+    background-image: url(/Assets/Header\ Background.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
 .project {
+    border-left: 4px solid #111;
+    padding-left: 10px;
     margin-top: 10px;
 }
 
+/* LINKS */
 a {
-    color: blue;
+    color: #0077cc;
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #222;
+    background: #111;
     color: white;
+    margin-top: 20px;
 }
