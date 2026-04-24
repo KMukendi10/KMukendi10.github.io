@@ -1,51 +1,144 @@
+/* RESET */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f4f4;
-    color: #333;
+font-family: Arial, Helvetica, sans-serif;
+background: #f4f4f4;
+color: #333;
+}
+
+/* NAVBAR */
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 60px;
+background: #f4f4f4;
+
+position: sticky;
+top: 0;
+}
+
+.logo {
+font-weight: bold;
+font-size: 20px;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #111;
+font-size: 14px;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+text-decoration: none;
+color: #555;
+}
+
+/* AVATAR */
+.avatar img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
 }
 
 /* HERO */
 .hero {
-    background-image: url(/Assets/Header\ Background.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
+background-image: url("/Assets/Header\ Background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 70vh;
+display: flex;
+align-items: center;
+padding-left: 80px;
+color: white;
+}
+
+.hero-content {
+max-width: 700px;
+}
+
+.hero-content h1 {
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.hero-content p {
+font-size: 16px;
+margin-bottom: 30px;
+line-height: 1.6;
+}
+
+button {
+padding: 12px 28px;
+border: 1px solid white;
+border-radius: 8px;
+background: transparent;
+color: white;
+font-size: 14px;
+cursor: pointer;
+}
+
+button:hover {
+color: black;
 }
 
 /* SECTIONS */
+
 section {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
+max-width: 900px;
+margin: 40px auto;
+padding: 30px;
+background: white;
+border-radius: 10px;
 }
 
 /* PROJECTS */
 .project {
-    border-left: 4px solid #111;
-    padding-left: 10px;
-    margin-top: 10px;
+border-left: 4px solid #111;
+padding-left: 12px;
+margin-top: 15px;
+}
+
+/* SKILLS */
+.skills-list {
+list-style: square;
+padding-left: 20px;
+margin-top: 10px;
 }
 
 /* LINKS */
+
 a {
-    color: #0077cc;
-    text-decoration: none;
+color: #0077cc;
+text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+color: #005fa3;
+text-decoration: none;
 }
 
 /* FOOTER */
+
 footer {
-    text-align: center;
-    padding: 15px;
-    background: #111;
-    color: white;
-    margin-top: 20px;
+text-align: center;
+padding: 20px;
+background: #111;
+color: white;
+margin-top: 40px;
 }
