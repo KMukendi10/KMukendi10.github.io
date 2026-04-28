@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kazadi Mukendi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -11,13 +12,15 @@
     <!-- NAVBAR -->
      <nav class="navbar">
         <div class="logo">✳ Portfolio ✳</div>
+        
         <div class="nav-links">
-            <a href="#home">Home</a>
+            <a href="#hero">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#case-studies">Case Studies</a>
             <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#footer">Contact</a>
         </div>
         
         <div class="avatar">
@@ -26,11 +29,12 @@
     </nav>
     
     <!-- HERO -->
-    <section class="hero">
+    <section id="hero">
         <div class="hero-content">
             <h1>Kazadi Mukendi</h1>
             <p>Welcome to my portfolio, where I showcase my skills and projects. I am an aspiring full stack web developer with a background in mechanical engineering. I enjoy building solutions that solve real-world problems.</p>
             <a href="#about"><button>Learn More</button></a>
+            <a href="#projects"><button>View Projects</button></a>
         </div>
     </section>
     
@@ -38,7 +42,6 @@
     <section id="about" class="about">
      <div class="about-container">
         <h2>About Me</h2>
-        <br>
         <br>
         <p>
             Hello! I'm <strong>Kazadi Mukendi</strong>, an aspiring Full Stack Web Developer 
@@ -67,82 +70,199 @@
     </section>
     
     <!-- PROJECTS -->
-     <section id="projects">
+    <section id="projects">
         <h2>Projects</h2>
 
-        <div class="project">
+        <div class="card-slider">
+
+        <div class="card">
+            <img src="./Assets/Profile-Card.png" alt="Profile Card">
             <h3>Profile Card</h3>
             <p>A responsive profile card component built with HTML and CSS.</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
             <a href="https://github.com/KMukendi10/ProfileUICard.git" target="_blank">View Repo</a>
             <a href="https://kmukendi10.github.io/ProfileUICard/" target="_blank">Visit Page</a>
         </div>
         
-        <div class="project">
+        <div class="card">
+            <img src="./Assets/UI Screenshot.png" alt="UI Screenshot">
             <h3>UI Screenshot</h3>
             <p>A recreation of a UI screenshot with HTML and CSS.</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
             <a href="https://github.com/KMukendi10/UI-Screenshot.git" target="_blank">View Repo</a>
             <a href="https://kmukendi10.github.io/UI-Screenshot/" target="_blank">Visit Page</a>
         </div>
         
-        <div class="project">
+        <div class="card">
+            <img src="./Assets/Tesla-Project.png" alt="Tesla Landing Page">
             <h3>Tesla Landing Pages</h3>
             <p>A clone of Tesla's landing page built with HTML and CSS.</p>
-            <a href="https://github.com/KMukendi10/Zaio-Tesla-Landing-Page.git" target="_blank">View Repo</a>
-            <a href="https://kmukendi10.github.io/Zaio-Tesla-Landing-Page/" target="_blank">Visit Page</a>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
             <a href="https://github.com/KMukendi10/TeslaLandingPage.git" target="_blank">View Repo</a>
             <a href="https://kmukendi10.github.io/TeslaLandingPage/" target="_blank">Visit Page</a>
         </div>
 
-        <div class="project">
+        <div class="card">
+            <img src="./Assets/Netflix.png" alt="Netflix Landing Page">
             <h3>Netflix Landing Page</h3>
             <p>A clone of Netflix landing page built with HTML and CSS.</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
             <a href="https://github.com/KMukendi10/ZaioNetflixLandingPage.git" target="_blank">View Repo</a>
             <a href="https://kmukendi10.github.io/ZaioNetflixLandingPage/" target="_blank">Visit Page</a>
         </div>
 
-        <div class="project">
+        <div class="card">
+            <img src="./Assets/YouTube.png" alt="YouTube Landing Page">
             <h3>YouTube Landing Page</h3>
             <p>A clone of YouTube landing page built with HTML and CSS.</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
             <a href="https://github.com/KMukendi10/ZaioYouTubeLandingPage.git" target="_blank">View Repo</a>
             <a href="https://kmukendi10.github.io/ZaioYouTubeLandingPage/" target="_blank">Visit Page</a>
+        </div>
+
         </div>
 
     </section>
 
     <section id="case-studies">
         <h2>Case Studies</h2>
-        <div class="case-study  ">
-            <h3>Case Study 1: Portfolio Website</h3>
-            <p>In this case study, I will walk you through the process of building my portfolio website, including the design choices, technologies used, and challenges faced.</p>
-            <a href="case-study-1.html" target="_blank">Read More</a>
+        
+        <div class="card-slider">
+            <div class="card2">
+                <h3>Portfolio Website</h3>
+                <p>This project focused on designing and building my personal portfolio website from scratch using HTML and CSS. The goal was to create a clean and professional platform where I could showcase my skills, projects, and learning journey. I began by planning the structure of the website, including sections such as the hero, about me, projects, case studies, and contact information. Careful attention was given to spacing, typography, and layout to ensure the design remained visually consistent.</p>
+                <p>During development, I applied responsive design techniques to make sure the website worked well on different screen sizes. I also used Git to track progress and manage updates to my code. This project taught me how to organize files, structure layouts, and create reusable components. Completing this project increased my confidence in building full website layouts independently.</p>
+                <p><strong>Tools Used:</strong> HTML, CSS, Git, GitHub, Chrome DevTools</p>
+                <p><strong>Skills Gained:</strong> Layout Design, Responsive Design, File Organization, Version Control</p>
+                <p><strong>Challenges & Solutions:</strong> One challenge I faced was aligning elements properly across sections. I solved this by using Flexbox and adjusting margins and spacing until the layout behaved consistently across different screen sizes.</p>
+            </div>
+            
+            <div class="card2">
+                <h3>Responsive Design</h3>
+                <p>This case study focuses on building layouts that adjust automatically to different screen sizes. The objective was to ensure that web pages remained readable and visually appealing on mobile devices, tablets, and desktop computers. I used CSS media queries to change layouts based on screen width, allowing elements to stack vertically on smaller screens.</p>
+                <p>To improve layout flexibility, I used percentage widths and flexible containers. Images were resized dynamically, and navigation links were adjusted to fit smaller screens. This project helped me understand the importance of designing websites that provide a consistent user experience regardless of device size.</p>
+                <p><strong>Tools Used:</strong> HTML, CSS, Media Queries, Flexbox, Chrome DevTools</p>
+                <p><strong>Skills Gained:</strong> Mobile Optimization, Layout Adaptation, Media Query Implementation</p>
+                <p><strong>Challenges & Solutions:</strong> A major challenge was keeping elements aligned when the screen size changed. I solved this by testing multiple breakpoints and adjusting layout properties such as width, padding, and alignment.</p>
+            </div>
+            
+            <div class="card2">
+                <h3>Version Control with Git</h3>
+                <p>This case study demonstrates how I used Git to manage code changes and maintain version control throughout development. The main objective was to keep track of project updates and safely store versions of my work. I initialized repositories, created commits, and connected my local projects to GitHub repositories.</p>
+                <p>Using Git helped me maintain an organized development workflow. I was able to update projects regularly and keep track of previous versions when making changes. This improved my confidence in managing code professionally and understanding how developers collaborate on shared projects.</p>
+                <p><strong>Tools Used:</strong> Git, GitHub, Command Line, VS Code</p>
+                <p><strong>Skills Gained:</strong> Version Control, Repository Management, Commit Tracking</p>
+                <p><strong>Challenges & Solutions:</strong> I encountered errors when pushing code to remote repositories. I resolved these issues by configuring remote URLs correctly and reviewing Git command documentation to understand the workflow better.</p>
+            </div>
+            
+            <div class="card2">
+                <h3>Troubleshooting and Debugging</h3>
+                <p>This case study highlights the troubleshooting techniques I used to fix layout and styling issues during development. While working on projects, I encountered problems such as missing images, incorrect spacing, and layout misalignment. To identify the cause of these issues, I used browser developer tools to inspect elements and review applied styles.</p>
+                <p>Through repeated testing and adjustments, I improved my ability to identify errors quickly and apply effective fixes. I learned how small changes in CSS properties can significantly affect layout behavior. This process strengthened my debugging skills and helped me develop patience and attention to detail when solving technical problems.</p>
+                <p><strong>Tools Used:</strong> HTML, CSS, Chrome DevTools, VS Code</p>
+                <p><strong>Skills Gained:</strong> Debugging, Troubleshooting, Logical Thinking, Attention to Detail</p>
+                <p><strong>Challenges & Solutions:</strong> One issue involved images not displaying due to incorrect file paths. I fixed this by reviewing folder structures and correcting the file references, which restored the images successfully.</p>
+            </div>
+        
+        </div>
+    
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="icons">
+            <i class="fa-brands fa-html5">HTML</i>
+            <i class="fa-brands fa-css3-alt">CSS</i>
+            <i class="fa-brands fa-git-alt">Git</i>
+            <i class="fa-solid fa-lightbulb">Problem Solving</i>
+            <i class="fa-solid fa-mobile-screen">Responsive Design</i>
         </div>
     </section>
 
-    <!-- SKILLS -->
-     <section id="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git & GitHub</li>
-            <li>Problem Solving</li>
-        </ul>
-    </section>
-    
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: kazadishadrackmukendi@example.com</p>
-        <p>GitHub:
-            <a href="https://github.com/KMukendi10" target="_blank">github.com/KMukendi10</a>
-        </p>
+    <section id="certificates">
+        <h2>Certificates</h2>
+        
+        <div class="card-slider">
+
+            <div class="card">
+                <img src="./Assets/Introduction-to-HTML-CSS-The-Tesla-Landing-Page.png" alt="Introduction to HTML/CSS Certificate">
+                <h3>Introduction to HTML/CSS Certificate:<br>The Tesla Landing Page</h3>
+                <p>Zaio</p>
+            </div>
+            
+            <div class="card">
+                <img src="./Assets/Introduction-to-CSS-Netflix-Landing-Page.png" alt="Introduction to CSS Certificate">
+                <h3>Introduction to CSS Certificate:<br>The Netflix Landing Page</h3>
+                <p>Zaio</p>
+            </div>
+
+            <div class="card">
+                <img src="./Assets/Building-YouTube-Using-HTML_CSS.png" alt="Building YouTube Landing Page Certificate">
+                <h3>Building YouTube Landing Page</h3>
+                <p>Zaio</p>
+            </div>
+
+        </div>
     </section>
     
     <!-- FOOTER -->
-     <footer>
+     <footer id="footer">
         
-        <p>© 2026 Kazadi Mukendi</p>
-    
+        <h2>Contact Me</h2>
+        
+        <div class="footer-container">
+            <div class="footer-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:kazadishadrackmukendi@gmail.com">kazadishadrackmukendi@gmail.com</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+27000000000">+27 68 125 2703</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/KMukendi10" target="_blank">GitHub</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://linkedin.com/in/kazadi-mukendi-a69122371" target="_blank">LinkedIn</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fab fa-facebook"></i>
+                <a href="https://m.facebook.com/SKM-Shad-105863354483945" target="_blank">Facebook</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fab fa-instagram"></i>
+                <a href="http://instagram.com/skm_shad" target="_blank">Instagram</a>
+            </div>
+            
+            <div class="footer-item">
+                <i class="fab fa-twitter"></i>
+                <a href="https://x.com/skm_shad00" target="_blank">X</a>
+            </div>
+        </div>
+        
+        <p class="footer-bottom">© 2026 Kazadi Mukendi | All Rights Reserved</p>
     </footer>
 
 </body>
